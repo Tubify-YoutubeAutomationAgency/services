@@ -881,7 +881,7 @@ section,
 }
 
 .about .nav-pills li+li {
-  margin-left: -70px;
+  margin-left: 0px;
 }
 
 .about .nav-link {
