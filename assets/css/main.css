@@ -933,7 +933,7 @@ section,
 }
 
 .stats .stats-item span {
-  font-size: 48px;
+  font-size: 100px;
   display: block;
   color: var(--accent-color);
   font-weight: 700;
