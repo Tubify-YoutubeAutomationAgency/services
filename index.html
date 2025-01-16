@@ -8,34 +8,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Tubify Video</title> <style> .container { display: flex; align-items: flex-start; } .about-video { margin-right: 100px; margin-top: 50px; /* Adjust this value to move video down */ } } .nav nav-pills mb-3 { max-width: 50%; /* Adjust this value to move text to the right */ } .count-box {
-  text-align: center;
-  padding: 20px;
-  border: 1px solid #ddd;
-  margin-bottom: 20px;
-  transition: 0.3s;
-  border-radius: 5px;
-}
-
-.count-box span {
-  font-size: 48px;
-  display: block;
-  font-weight: 700;
-  color: #3498db; /* Change this color as needed */
-}
-
-.count-box p {
-  margin: 0;
-  font-size: 16px;
-  color: #777;
-}
-
-.count-box:hover {
-  background: #f7f7f7;
-  border-color: #3498db; /* Change this color as needed */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
- } </style>
+<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Tubify Video</title> <style> .container { display: flex; align-items: flex-start; } .about-video { margin-right: 100px; margin-top: 50px; /* Adjust this value to move video down */ } } .nav nav-pills mb-3 { max-width: 50%; /* Adjust this value to move text to the right */ }}</style>
 
   <!-- Favicons -->
   <link rel="icon" href="assets/img/tubifylogo.png.png" type="image/png">
@@ -317,36 +290,46 @@
 
     </section><!-- /About Section -->
 
-<section id="counts" class="counts">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3 col-md-6">
-        <div class="count-box">
-          <span>232</span>
-          <p>Clients</p>
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Clients</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Workers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
         </div>
+
       </div>
-      <div class="col-lg-3 col-md-6">
-        <div class="count-box">
-          <span>521</span>
-          <p>Projects</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <div class="count-box">
-          <span>1453</span>
-          <p>Hours Of Support</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <div class="count-box">
-          <span>32</span>
-          <p>Workers</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
+    </section><!-- /Stats Section -->
 
 
     <!-- Services Section -->
