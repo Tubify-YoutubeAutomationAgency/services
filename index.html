@@ -25,7 +25,33 @@ font-size: 100%
 .stats-item { font-size: 100px }
 
 
- .stats { margin: 0 500px; font-size: 100% /* Adjust spacing between stats if needed */ } </style>
+ .stats { margin: 0 500px; font-size: 100% /* Adjust spacing between stats if needed */ }
+
+.stats { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; /* Adds vertical centering */ 
+  text-align: center; 
+  margin-top: 20px; /* Adjust this value if needed */ 
+  gap: 20px; /* Adds space between stats items */ 
+  flex-wrap: wrap; /* Allows items to wrap if needed */ 
+  padding: 0 20px; /* Adds padding to the container */ 
+} 
+
+.stats-item { 
+  padding: 30px; 
+  width: 100%; 
+  font-size: 24px; /* Increases the font size */ 
+}
+
+.stats-item span {
+  font-size: 100px; /* Increases the number size */
+}
+
+.stats-item p {
+  font-size: 100px; /* Increases the label size */
+}
+ </style>
 
   <!-- Favicons -->
   <link rel="icon" href="assets/img/tubifylogo.png.png" type="image/png">
