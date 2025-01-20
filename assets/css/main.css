@@ -951,6 +951,24 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 36px; /* Increase or decrease as needed */
+  margin-bottom: 10px; /* Adjust the spacing between the heading and the line */
+}
+
+.section-title .line {
+  width: 100px; /* Adjust the width of the line */
+  height: 4px; /* Adjust the height of the line */
+  background-color: #3498db; /* Change this color as needed */
+  margin: 0 auto; /* Centers the line */
+  margin-top: -10px; /* Adjust this value to move the line closer to the heading */
+}
+
 .services .service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
