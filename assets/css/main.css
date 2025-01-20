@@ -961,9 +961,22 @@ section,
   text-align: center; /* Ensures text is centered */
 }
 
-.service-title h2 {
-  text-align: center; /* Ensures text is centered */
-margin-left: 50px
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 36px; /* Adjust this value as needed */
+  margin-bottom: 10px; /* Adjust the spacing between the heading and the line */
+  text-align: center; /* Centers the heading */
+}
+
+.section-title .line {
+  width: 100px; /* Adjust the width of the line */
+  height: 4px; /* Adjust the height of the line */
+  background-color: #3498db; /* Change this color as needed */
+  margin: 0 auto; /* Centers the line */
 }
 
 .services .service-item {
