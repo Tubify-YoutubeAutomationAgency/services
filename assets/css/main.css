@@ -961,18 +961,19 @@ section,
   text-align: center; /* Ensures text is centered */
 }
 
-.section-title {
+.service-title {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.section-title h2 {
+.service-title h2 {
   font-size: 36px; /* Adjust this value as needed */
   margin-bottom: 10px; /* Adjust the spacing between the heading and the line */
   text-align: center; /* Centers the heading */
+
 }
 
-.section-title .line {
+.service-title .line {
   width: 100px; /* Adjust the width of the line */
   height: 4px; /* Adjust the height of the line */
   background-color: #3498db; /* Change this color as needed */
