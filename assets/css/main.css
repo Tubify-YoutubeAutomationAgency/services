@@ -953,6 +953,14 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center; /* Ensures text is centered */
+}
+
 .services .service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
@@ -961,6 +969,7 @@ section,
   text-align: center;
   transition: 0.3s;
   border-radius: 5px;
+  margin: 10px; /* Adds spacing between items */
 }
 
 .services .service-item .icon {
@@ -1028,6 +1037,7 @@ section,
 .services .service-item:hover h3 {
   color: var(--accent-color);
 }
+
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
