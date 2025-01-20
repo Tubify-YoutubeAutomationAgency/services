@@ -866,13 +866,13 @@ section,
 
 .about h3 {
   font-weight: 300;
-  font-size: 52px;
+  font-size: 32px;
   margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
   .about h3 {
-    font-size: 48px;
+    font-size: 28px;
   }
 }
 
@@ -886,7 +886,7 @@ section,
 
 .about .nav-link {
   background: none;
-  font-size: 38px;
+  font-size: 18px;
   font-weight: 400;
   color: var(--default-color);
   padding: 12px 0;
@@ -902,19 +902,19 @@ section,
 
 @media (max-width: 575px) {
   .about .nav-link {
-    font-size: 36px;
+    font-size: 16px;
   }
 }
 
 .about .tab-content h4 {
-  font-size: 38px;
+  font-size: 18px;
   margin: 0;
   font-weight: 700;
   color: var(--default-color);
 }
 
 .about .tab-content i {
-  font-size: 42px;
+  font-size: 22px;
   line-height: 0;
   margin-right: 8px;
   color: var(--accent-color);
@@ -933,10 +933,12 @@ section,
 }
 
 .stats .stats-item span {
-  font-size: 60px; /* Increased from 48px to 60px */
+  font-size: 100px; /* Increased from 60px to 100px */
   display: block;
   color: var(--accent-color);
   font-weight: 700;
+  width: 100%; /* Ensures the text spans the full width */
+  text-align: center; /* Centers the text */
 }
 
 .stats .stats-item p {
@@ -944,8 +946,10 @@ section,
   padding: 0;
   margin: 0;
   font-family: var(--heading-font);
-  font-size: 20px; /* Increased from 15px to 20px */
+  font-size: 40px; /* Increased from 20px to 40px */
   font-weight: 600;
+  width: 100%; /* Ensures the text spans the full width */
+  text-align: center; /* Centers the text */
 }
 
 /*--------------------------------------------------------------
