@@ -866,13 +866,13 @@ section,
 
 .about h3 {
   font-weight: 300;
-  font-size: 32px;
+  font-size: 52px;
   margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
   .about h3 {
-    font-size: 28px;
+    font-size: 48px;
   }
 }
 
@@ -886,7 +886,7 @@ section,
 
 .about .nav-link {
   background: none;
-  font-size: 18px;
+  font-size: 38px;
   font-weight: 400;
   color: var(--default-color);
   padding: 12px 0;
@@ -902,19 +902,19 @@ section,
 
 @media (max-width: 575px) {
   .about .nav-link {
-    font-size: 16px;
+    font-size: 36px;
   }
 }
 
 .about .tab-content h4 {
-  font-size: 18px;
+  font-size: 38px;
   margin: 0;
   font-weight: 700;
   color: var(--default-color);
 }
 
 .about .tab-content i {
-  font-size: 22px;
+  font-size: 42px;
   line-height: 0;
   margin-right: 8px;
   color: var(--accent-color);
