@@ -961,8 +961,9 @@ section,
   text-align: center; /* Ensures text is centered */
 }
 
-.services .service-title h2 {
+.service-title h2 {
   text-align: center; /* Ensures text is centered */
+margin-left: 50px
 }
 
 .services .service-item {
