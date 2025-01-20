@@ -923,6 +923,7 @@ section,
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
+
 .stats {
   padding: 10px 0 60px 0;
 }
@@ -933,12 +934,10 @@ section,
 }
 
 .stats .stats-item span {
-  font-size: 100px; /* Increased from 60px to 100px */
+  font-size: 48px;
   display: block;
   color: var(--accent-color);
   font-weight: 700;
-  width: 100%; /* Ensures the text spans the full width */
-  text-align: center; /* Centers the text */
 }
 
 .stats .stats-item p {
@@ -946,11 +945,10 @@ section,
   padding: 0;
   margin: 0;
   font-family: var(--heading-font);
-  font-size: 40px; /* Increased from 20px to 40px */
+  font-size: 15px;
   font-weight: 600;
-  width: 100%; /* Ensures the text spans the full width */
-  text-align: center; /* Centers the text */
 }
+
 
 /*--------------------------------------------------------------
 # Services Section
