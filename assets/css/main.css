@@ -953,6 +953,19 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+
+.center-text {
+  text-align: center;
+  width: 100%; /* Ensures the text spans the full width */
+}
+
+.section-title .line {
+  width: 100px; /* Adjust the width of the line */
+  height: 4px; /* Adjust the height of the line */
+  background-color: #3498db; /* Change this color as needed */
+  margin: 0 auto; /* Centers the line */
+}
+
 .services {
   display: flex;
   justify-content: center;
@@ -1037,6 +1050,7 @@ section,
 .services .service-item:hover h3 {
   color: var(--accent-color);
 }
+
 
 /*--------------------------------------------------------------
 # Features Section
