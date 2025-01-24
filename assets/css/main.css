@@ -1055,11 +1055,24 @@ section,
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
+.center-text {
+  text-align: center;
+  width: 100%; /* Ensures the text spans the full width */
+}
+
+.section-title .line {
+  width: 100px; /* Adjust the width of the line */
+  height: 4px; /* Adjust the height of the line */
+  background-color: #3498db; /* Change this color as needed */
+  margin: 0 auto; /* Centers the line */
+}
+
 .features h3 {
   color: var(--heading-color);
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 15px;
+  text-align: center; /* Adds this line to center the text */
 }
 
 .features .icon-box {
